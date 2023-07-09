@@ -1,5 +1,5 @@
 document.getElementById("user-email").defaultValue = "test@gmail.com";
-document.getElementById("user-passworduser-password").defaultValue = "secret";
+document.getElementById("user-password").defaultValue = "secret";
     
     
     
