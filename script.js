@@ -1,3 +1,8 @@
+document.getElementById("user-email").defaultValue = "test@gmail.com";
+document.getElementById("user-passworduser-password").defaultValue = "secret";
+    
+    
+    
     document.getElementById('logInBtn').addEventListener('click', function(){
       const emailField = document.getElementById('user-email');
       const email = emailField.value;
@@ -10,7 +15,7 @@
       // const checkBox = checkBoxField.value;
 
 
-      if (email === 'hasan@gmail.com') {
+      if (email === 'test@gmail.com') {
         if (password === 'secret') {
             
             window.location.href = 'home.html';
